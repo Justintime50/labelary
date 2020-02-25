@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+
+// Import modules
 const questions  = require("./lib/questions");
 const general = require("./lib/labelary");
 
