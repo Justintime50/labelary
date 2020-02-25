@@ -1,6 +1,6 @@
 {
   "name": "labelary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create PDF's or PNG's from ZPL labels via the Labelary API.",
   "main": "index.js",
   "directories": {
@@ -30,6 +30,6 @@
   "author": "Justintime50",
   "license": "MIT",
   "bin": {
-    "build-project": "./index.js"
+    "labelary": "./index.js"
   }
 }
