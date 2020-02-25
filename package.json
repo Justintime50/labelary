@@ -1,6 +1,6 @@
 {
   "name": "labelary",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Create PDF's or PNG's from ZPL labels via the Labelary API.",
   "main": "index.js",
   "directories": {
@@ -10,9 +10,15 @@
     "inquirer": "^7.0.4",
     "request": "^2.88.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justintime50/labelary.git"
   },
   "keywords": [
     "labelary",
@@ -22,5 +28,8 @@
     "label"
   ],
   "author": "Justintime50",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "build-project": "./index.js"
+  }
 }
