@@ -42,3 +42,5 @@ Run linting:
 npx eslint index.js
 npx eslint lib/*
 ```
+
+NOTE: This package uses `request` which is deprecated. This will need to be replaced soon.
