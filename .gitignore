@@ -4,3 +4,4 @@ node_modules
 *.pdf
 *.png
 *.zpl
+!showcase.png
