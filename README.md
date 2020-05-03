@@ -4,7 +4,7 @@
 
 Create PDF's or PNG's from ZPL labels via the [Labelary API](http://labelary.com/service.html).
 
-[![Build Status](https://travis-ci.org/justintime50/labelary.svg?branch=master)](https://travis-ci.org/justintime50/labelary)
+[![Build Status](https://travis-ci.com/justintime50/labelary.svg?branch=master)](https://travis-ci.com/justintime50/labelary)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 <img src="assets/showcase.png">
