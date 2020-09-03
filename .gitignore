@@ -5,3 +5,7 @@ node_modules
 *.png
 *.zpl
 !showcase.png
+.nyc_output
+coverage
+test_file.txt
+!test_*
