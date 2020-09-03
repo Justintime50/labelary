@@ -46,7 +46,9 @@ describe('#createLabel', function () {
     it('returns an error when a file cannot be generated', async function () {
         // TODO: Mock this file creation instead of actually creating it
         const result = await labelary.createLabel('///////~.123', 'dummy data')
-        assert.equal(result, 'Error: EROFS: read-only file system, open \'///////~.123\'');
+        // This is a dumb assertion but necessary to do this way based on filesystem
+        // Basically this string will persist regardless of filesystem in the error
+        assert.include(result.message, 'open \'///////~.123\'');
     });
 });
 
