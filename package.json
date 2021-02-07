@@ -19,8 +19,7 @@
   },
   "scripts": {
     "test": "_mocha",
-    "coverage": "nyc --reporter=html --reporter=text npm run test",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+    "coverage": "nyc --reporter=lcov --reporter=text npm run test"
   },
   "repository": {
     "type": "git",
