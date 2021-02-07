@@ -4,8 +4,8 @@
 
 Create PDF's or PNG's from ZPL labels via the Labelary API [Labelary API](http://labelary.com/service.html) on the CLI.
 
-[![Build Status](https://travis-ci.com/justintime50/labelary.svg?branch=master)](https://travis-ci.com/justintime50/labelary)
-[![Coverage Status](https://coveralls.io/repos/github/Justintime50/labelary/badge.svg?branch=master)](https://coveralls.io/github/Justintime50/labelary?branch=master)
+[![Build Status](https://github.com/Justintime50/labelary/workflows/build/badge.svg)](https://github.com/Justintime50/labelary/actions)
+[![Coverage Status](https://coveralls.io/repos/github/Justintime50/labelary/badge.svg?branch=main)](https://coveralls.io/github/Justintime50/labelary?branch=main)
 [![NPM](https://img.shields.io/npm/v/labelary)](https://www.npmjs.com/package/labelary)
 [![Licence](https://img.shields.io/github/license/justintime50/labelary)](https://opensource.org/licenses/mit-license.php)
 
