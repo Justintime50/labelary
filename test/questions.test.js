@@ -42,3 +42,25 @@ describe('CLI questions', function () {
         )
     });
 });
+
+describe('promptQuestions', function () {
+    it('returns the proper type', function () {
+        const questionList = [
+            {
+                name: "format",
+                message: "What format do you want your ZPL label in? (PDF's supports multi-page labels)",
+                // "Mock" the answer here automatically to stop the test from hanging
+                when: function (answers) {
+                    answers.format = "PDF"
+                    return false
+                }
+            }
+        ]
+
+        const promptQuestions = questions.promptQuestions(questionList)
+        assert.instanceOf(promptQuestions, Object)
+        return promptQuestions.then(answers => {
+            assert.equal(answers.format, "PDF")
+        });
+    });
+});
