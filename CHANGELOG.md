@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v1.3.0 (2021-05-26)
+
+* Drops support for Node 10 and pins Node 12 as the minimum version
+* Tests against Node 16
+* 100% code coverage
+
 ## v1.2.0 (2020-09-02)
 
 * Added unit tests
