@@ -9,7 +9,7 @@ Create PDF's or PNG's from ZPL labels via the Labelary API [Labelary API](http:/
 [![NPM](https://img.shields.io/npm/v/labelary)](https://www.npmjs.com/package/labelary)
 [![Licence](https://img.shields.io/github/license/justintime50/labelary)](https://opensource.org/licenses/mit-license.php)
 
-<img src="assets/showcase.png" alt="Showcase">
+<img src="https://raw.githubusercontent.com/justintime50/assets/main/src/labelary/showcase.png" alt="Showcase">
 
 </div>
 
